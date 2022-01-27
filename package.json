@@ -1,0 +1,17 @@
+{
+  "name": "@ariz/root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "craco": "^0.0.3"
+  },
+  "scripts": {
+    "start-web": "lerna exec --scope @ariz/web -- yarn start",
+    "start-web-app": "lerna exec --scope @ariz/web-app -- yarn start"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  }
+}
