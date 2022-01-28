@@ -1,3 +1,5 @@
-import Button from './components/Button';
+import "./index.css";
 
-export { Button }
+import AccountMenu from './components/AccountMenu';
+
+export { AccountMenu }

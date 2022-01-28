@@ -20,6 +20,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/lerna.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
@@ -38,20 +46,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/components/src/components" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/packages/web" />
-      <recent name="$PROJECT_DIR$/packages/web-app" />
+      <recent name="$PROJECT_DIR$/packages/components/src/components" />
+      <recent name="$PROJECT_DIR$/packages/web/src/components/tableComponents" />
+      <recent name="$PROJECT_DIR$/packages/web/src/components" />
+      <recent name="$PROJECT_DIR$/packages/web/src" />
+      <recent name="$PROJECT_DIR$/packages/web/src/hooks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/components/src/hooks" />
       <recent name="$PROJECT_DIR$/packages" />
     </key>
   </component>
@@ -64,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643295661694</updated>
       <workItem from="1643295663923" duration="38000" />
-      <workItem from="1643295894749" duration="4119000" />
+      <workItem from="1643295894749" duration="19771000" />
     </task>
     <servers />
   </component>
