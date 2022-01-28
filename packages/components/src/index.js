@@ -1,7 +1,5 @@
 import "./index.css";
 
-import Button from './components/Button';
-import SearchBar from './components/SearchBar';
+import AccountMenu from './components/AccountMenu';
 
-export { Button }
-export { SearchBar }
+export { AccountMenu }

@@ -2,16 +2,25 @@
   "name": "@ariz/root",
   "private": true,
   "devDependencies": {
-    "lerna": "^4.0.0",
-    "craco": "^0.0.3"
+    "craco": "^0.0.3",
+    "lerna": "^4.0.0"
   },
   "scripts": {
     "start-web": "lerna exec --scope @ariz/web -- yarn start",
-    "start-web-app": "lerna exec --scope @ariz/web-app -- yarn start"
+    "start-web-app": "lerna exec --scope @ariz/web-app -- yarn start",
+    "start-web-corporate": "lerna exec --scope @ariz/web-corporate -- yarn start"
   },
   "workspaces": {
     "packages": [
       "packages/**"
     ]
+  },
+  "dependencies": {
+    "@iconify/icons-eva": "^1.1.0",
+    "@iconify/react": "^3.1.3",
+    "@material-ui/core": "^5.0.0-beta.4",
+    "@material-ui/utils": "^5.0.0-beta.4",
+    "@mui/icons-material": "^5.3.1",
+    "@mui/material": "^5.2.6"
   }
 }
