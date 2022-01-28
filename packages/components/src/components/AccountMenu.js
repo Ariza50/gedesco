@@ -13,9 +13,9 @@ export default function AccountMenu() {
   };
   return (
     <React.Fragment>
-      <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center', justifyContent: 'space-around', backgroundColor: '#3d7fc0', height: '70px' }}>
-        <Typography sx={{ minWidth: 100 }}>Gedesco</Typography>
-        <Typography sx={{ minWidth: 100 }}>Main Page</Typography>
+      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around', backgroundColor: '#1f2937', height: '70px' }}>
+        <Typography sx={{ minWidth: 100, color: '#ffffff' }}>Gedesco</Typography>
+        <Typography sx={{ minWidth: 100, color: '#adccc9', fontWeight: 'bold' }}>Main Page</Typography>
         <Tooltip title="Account settings">
           <IconButton
             onClick={handleClick}

@@ -1,16 +1,20 @@
 import {AccountMenu} from '@ariz/components/src';
 import MainTable from '../components/MainTable';
+import {PRODUCT_TABLE_COLUMNS} from '../components/tableComponents/columnsDefinition';
+import {useGetAllProductsQuery} from '../redux/apiEcommerce';
 
 const Home = () => {
-  /*const { data, isLoading } = useGetAllProductsQuery();
-  if (isLoading){
-    return null;
-  }*/
+  const { data, isLoading } = useGetAllProductsQuery();
+
   return (
-    <div sx={{width: 800, display: 'flex', alignItems: 'center', textAlign: 'center', justifyContent: 'space-around'}}>
+    <>
       <AccountMenu/>
-      <MainTable/>
-    </div>
+      {
+        !isLoading
+          ? <MainTable columns={PRODUCT_TABLE_COLUMNS} listData={data}/>
+          : null
+      }
+    </>
   );
 };
 
