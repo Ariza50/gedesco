@@ -64,6 +64,25 @@ Start the web app
 ```bash
   npm run start-web-app
 ```
+## Running Tests
+
+To run tests on components project, run the following command
+
+```bash
+  npm run start-component-test
+```
+
+To run tests on web project, run the following command
+
+```bash
+  npm run start-web-test
+```
+
+To run tests on web app project, run the following command
+
+```bash
+  npm run start-web-app-test
+```
 ## Feedback
 
 If you have any feedback, please reach out to us at arizaz50@gmail.com
