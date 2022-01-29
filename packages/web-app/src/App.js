@@ -1,16 +1,13 @@
-import {Button} from '@ariz/components/src';
 import './App.css';
+import Router from './routes';
+import {BrowserRouter} from 'react-router-dom';
 
-function App() {
-  return (
-    <>
-      <Button/>
-      <Button/>
-      <button className="bg-cyan-500 shadow-lg shadow-cyan-500/50 ...">Subscribe</button>
-      <button className="bg-blue-500 shadow-lg shadow-blue-500/50 ...">Subscribe</button>
-      <button className="bg-indigo-500 shadow-lg shadow-indigo-500/50 ...">Subscribe</button>
-    </>
-  );
-}
+const App = () => (
+  <div>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
+  </div>
+);
 
 export default App;
