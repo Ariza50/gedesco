@@ -77,7 +77,9 @@ export default function MainTable({ listData, columns }) {
   const filteredListData = applySortFilter(listData, getComparator(order, orderBy), filterName);
 
   return (
-    <Box sx={{
+    <Box
+      role="main-table"
+      sx={{
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-around',

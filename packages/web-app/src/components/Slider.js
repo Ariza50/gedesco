@@ -1,8 +1,7 @@
 
 const Slider = ({ title, listData }) => {
-  console.log('listData ', listData);
   return (
-    <div className="flex flex-col bg-white m-auto p-auto">
+    <div role="slider" className="flex flex-col bg-white m-auto p-auto">
       {
         listData.length > 0
           ? <div className="mb-4 pl-5 font-extrabold">

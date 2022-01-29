@@ -7,8 +7,10 @@
   },
   "scripts": {
     "start-web": "lerna exec --scope @ariz/web -- yarn start",
+    "start-web-test": "lerna exec --scope @ariz/web -- yarn test",
     "start-web-app": "lerna exec --scope @ariz/web-app -- yarn start",
-    "start-web-corporate": "lerna exec --scope @ariz/web-corporate -- yarn start"
+    "start-web-app-test": "lerna exec --scope @ariz/web-app -- yarn test",
+    "start-components-test": "lerna exec --scope @ariz/components -- yarn test"
   },
   "workspaces": {
     "packages": [
