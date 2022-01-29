@@ -1,4 +1,4 @@
-import SearchToolbar from '@ariz/components/src/components/SearchToolbar';
+import {SearchToolbar} from '@ariz/components/src';
 import {Box, Table, TableBody, TableCell, TableContainer, TablePagination, TableRow} from '@material-ui/core';
 import {Card} from '@mui/material';
 import {filter} from 'lodash';

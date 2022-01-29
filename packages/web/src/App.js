@@ -3,11 +3,11 @@ import {BrowserRouter} from 'react-router-dom';
 import Router from "./routes"
 
 const App = () => (
-    <div role="app">
+    <div>
       <BrowserRouter>
         <Router />
       </BrowserRouter>
     </div>
-  );
+);
 
 export default App;

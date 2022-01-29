@@ -1,10 +1,13 @@
 import './App.css';
-import MySlider from './components/MySlider';
+import Router from './routes';
+import {BrowserRouter} from 'react-router-dom';
 
-function App() {
-  return (
-    <MySlider/>
-  );
-}
+const App = () => (
+  <div>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
+  </div>
+);
 
 export default App;
