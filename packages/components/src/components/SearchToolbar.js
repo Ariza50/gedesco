@@ -35,6 +35,7 @@ export default function SearchToolbar({ placeHolder, numSelected, filterName, on
 
   return (
     <RootStyle
+      role="search-toolbar"
       sx={{
         ...(numSelected > 0 && {
           color: 'primary.main',
@@ -48,6 +49,7 @@ export default function SearchToolbar({ placeHolder, numSelected, filterName, on
         </Typography>
       ) : (
         <SearchStyle
+          role="search-input"
           sx={{
             width: '317px'
           }}
